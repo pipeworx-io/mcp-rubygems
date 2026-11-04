@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-rubygems",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "RubyGems MCP — wraps the RubyGems.org public API (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "rubygems",
     "gatewaySlug": "rubygems",
-    "sourceHash": "v1-ea7f22b0e20802954d1e79229902fe8d9c276524572dfa8591df461c8362e458",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-49f1e6b8025f7764b2c26660366507d0ec45b118ce49b0a01de662206e0586eb",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
