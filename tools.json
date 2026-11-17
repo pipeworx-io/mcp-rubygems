@@ -40,7 +40,7 @@
     }
   },
   {
-    "name": "get_versions",
+    "name": "rubygems_get_versions",
     "description": "Get full version history for a Ruby gem. Returns every published version with release date, download count, Ruby version compatibility, and licenses. Use for \"what versions of X exist?\" or \"when did Y release version Z?\".",
     "inputSchema": {
       "type": "object",

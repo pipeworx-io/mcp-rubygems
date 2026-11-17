@@ -1,8 +1,8 @@
 # mcp-rubygems
 
-RubyGems MCP — wraps the RubyGems.org public API (free, no auth)
+Unofficial RubyGems MCP — wraps the RubyGems.org public API (free, no auth)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2007+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -10,7 +10,7 @@ Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents 
 |------|-------------|
 | `get_gem` | Get full metadata for a published Ruby gem by name. Returns latest version, authors, license, descriptions, download counts, and project/source URLs. Use for "what is gem X?", "tell me about Ruby gem Y", or before calling get_versions/get_dependencies. |
 | `search_gems` | Search RubyGems by keyword in name/description. Returns matching gems sorted by relevance with name, version, downloads, and info text. |
-| `get_versions` | Get full version history for a Ruby gem. Returns every published version with release date, download count, Ruby version compatibility, and licenses. Use for "what versions of X exist?" or "when did Y release version Z?". |
+| `rubygems_get_versions` | Get full version history for a Ruby gem. Returns every published version with release date, download count, Ruby version compatibility, and licenses. Use for "what versions of X exist?" or "when did Y release version Z?". |
 | `get_dependencies` | Get the runtime and development dependencies for a specific version of a Ruby gem. Returns each dependency with its version requirement string. Omit version to get the latest. |
 | `get_reverse_dependencies` | List gems that depend on this gem. Useful for understanding ecosystem impact ("what depends on Rack?") or risk surface ("how many gems would break if this one had a vulnerability?"). API caps at 50 names per request. |
 
@@ -58,7 +58,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1866+ data sources. The
+Both URLs reach the same gateway and the same 2007+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

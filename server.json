@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/rubygems",
-  "title": "Rubygems",
-  "description": "RubyGems MCP — wraps the RubyGems.org public API (free, no auth)",
-  "version": "0.2.1",
+  "title": "RubyGems (Unofficial)",
+  "description": "Unofficial RubyGems MCP — wraps the RubyGems.org public API (free, no auth)",
+  "version": "0.2.2",
   "websiteUrl": "https://pipeworx.io/packs/rubygems",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-rubygems",
